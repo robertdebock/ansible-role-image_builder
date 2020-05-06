@@ -1,0 +1,7 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Allow your system to use Lorax, the image builder.
+  homepage: https://robertdebock.nl/

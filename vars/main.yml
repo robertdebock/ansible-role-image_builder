@@ -1,0 +1,8 @@
+---
+# vars file for image_builder
+image_builder_packages:
+  - lorax-composer
+  - composer-cli
+
+image_builder_services:
+  - lorax-composer
