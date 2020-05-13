@@ -4,7 +4,7 @@ Allow your system to use Lorax, the image builder.
 
 |Travis|GitHub|Quality|Downloads|
 |------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-image_builder.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-image_builder)|[![github](https://github.com/robertdebock/ansible-role-image_builder/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-image_builder/actions)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/robertdebock/image_builder)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/robertdebock/image_builder)|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-image_builder.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-image_builder)|[![github](https://github.com/robertdebock/ansible-role-image_builder/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-image_builder/actions)|[![quality](https://img.shields.io/ansible/quality/48596)](https://galaxy.ansible.com/robertdebock/image_builder)|[![downloads](https://img.shields.io/ansible/role/d/48596)](https://galaxy.ansible.com/robertdebock/image_builder)|
 
 ## Example Playbook
 
@@ -96,7 +96,7 @@ This role has been tested on these [container images](https://hub.docker.com/):
 |container|tags|
 |---------|----|
 |el|7, 8|
-|fedora|31, 32|
+|fedora|32|
 
 The minimum version of Ansible required is 2.8 but tests have been done to:
 
