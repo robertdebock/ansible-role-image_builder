@@ -2,9 +2,9 @@
 
 Allow your system to use Lorax, the image builder.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-image_builder.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-image_builder)|[![github](https://github.com/robertdebock/ansible-role-image_builder/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-image_builder/actions)|[![quality](https://img.shields.io/ansible/quality/48596)](https://galaxy.ansible.com/robertdebock/image_builder)|[![downloads](https://img.shields.io/ansible/role/d/48596)](https://galaxy.ansible.com/robertdebock/image_builder)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-image_builder.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-image_builder)|[![github](https://github.com/robertdebock/ansible-role-image_builder/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-image_builder/actions)|[![quality](https://img.shields.io/ansible/quality/48596)](https://galaxy.ansible.com/robertdebock/image_builder)|[![downloads](https://img.shields.io/ansible/role/d/48596)](https://galaxy.ansible.com/robertdebock/image_builder)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-image_builder.svg)](https://github.com/robertdebock/ansible-role-image_builder/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
