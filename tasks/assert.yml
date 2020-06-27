@@ -17,24 +17,24 @@
       - image_builder_version is defined
       - image_builder_version | length > 0
 
-- name: test if image_builder_packages is set correctly
+- name: test if image_builder_installed_packages is set correctly
   assert:
     that:
-      - image_builder_packages | length > 0
-      - image_builder_packages is iterable
+      - image_builder_installed_packages | length > 0
+      - image_builder_installed_packages is iterable
   when:
-    - image_builder_packages is defined
+    - image_builder_installed_packages is defined
 
-- name: test if item of image_builder_packages is set correctly
+- name: test if item of image_builder_installed_packages is set correctly
   assert:
     that:
       - item.name is defined
       - item.name | length > 0
       - item.version is defined
       - item.version | length > 0
-  loop: "{{ image_builder_packages }}"
+  loop: "{{ image_builder_installed_packages }}"
   when:
-    - image_builder_packages is defined
+    - image_builder_installed_packages is defined
 
 - name: test if image_builder_type is set correctly
   assert:
