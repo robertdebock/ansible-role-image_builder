@@ -58,11 +58,11 @@ image_builder_product: blueprint-name
 image_builder_description: My first blueprint
 image_builder_version: 0.0.1
 
-#image_builder_packages:
-#  - name: screen
-#    version: "4.*"
-#  - name: lsof
-#    version: "*"
+image_builder_installed_packages:
+  - name: screen
+    version: "4.*"
+  - name: lsof
+    version: "*"
 
 # Use one of these values: alibaba, ami, ext4-filesystem, google, live-iso,
 # openstack, partitioned-disk, qcow2, tar, vhd or vmdk
