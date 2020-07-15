@@ -34,6 +34,8 @@
       - item.version | length > 0
     quiet: yes
   loop: "{{ image_builder_installed_packages }}"
+  loop_control:
+    label: "{{ item.name }}"
   when:
     - image_builder_installed_packages is defined
 
