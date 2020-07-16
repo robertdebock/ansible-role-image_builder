@@ -7,9 +7,6 @@
   package:
     name: "{{ image_builder_packages }}"
     state: present
-  register: image_builder_install_packages
-  until: image_builder_install_packages is succeeded
-  retries: 3
   notify:
     - restart service
 
