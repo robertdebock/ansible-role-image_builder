@@ -21,6 +21,7 @@
   template:
     src: blueprint.toml.j2
     dest: blueprint.toml
+    mode: "0644"
   notify:
     - push blueprint
     - start blueprint
