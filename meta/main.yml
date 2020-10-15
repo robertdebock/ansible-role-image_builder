@@ -18,7 +18,5 @@ galaxy_info:
 
   galaxy_tags:
     - imagebuilder
-    - centos
-    - redhat
 
 dependencies: []
