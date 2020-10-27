@@ -14,7 +14,7 @@ galaxy_info:
         - 8
     - name: Fedora
       versions:
-        - 32
+        - all
 
   galaxy_tags:
     - imagebuilder
